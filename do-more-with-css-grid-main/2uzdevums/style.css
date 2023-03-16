@@ -3,7 +3,8 @@
   height: 600px;
   background-color: pink;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  display: grid;
   
 
   /* Izvieto, lūdzu, elementus ar klasi item, 3 kolonnās,
@@ -15,4 +16,6 @@
 .item {
   background-color: violet;
   font-family: sans-serif;
+  justify-items: center;
+  align-items: center;
 }
