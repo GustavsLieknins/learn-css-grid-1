@@ -1,3 +1,51 @@
 :root {
   font-family: sans-serif;
 }
+
+.kvadrats {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.minikvadrats {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.kvadratins {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.minikvadratins {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+}
+
+.kravadraats {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  align-items: center;
+  justify-content: center;
+  border-radius: 250px;
+}
+
+.minikvadraats {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+  border-radius: 80px;
+}
